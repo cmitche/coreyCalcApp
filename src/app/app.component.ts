@@ -7,7 +7,7 @@ import { FormsModule } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  welcome = "SN's Discount Calculator";
+  welcome = "Super Negro's Discount Liquors";
   productPrice = 0;
   discountAmount = 0;
   finalPrice;

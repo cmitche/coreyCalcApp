@@ -1,5 +1,7 @@
 <!-- STRING INTERPOLATION -->
 <h1>{{welcome}}</h1>
+<div id="wrapper">
+<p><b>Instructions:</b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, officiis perspiciatis impedit rem repellat libero minus ipsa, molestias officia repellendus, architecto autem praesentium amet atque optio temporibus. Sunt, facere eius!</p>
 <h4>Product Price</h4>
 <input #price type="number" [value]="productPrice">
 <h4>Discount Amount (%)</h4>
@@ -8,5 +10,5 @@
 
 <button type="button" class="btn btn-primary" (click)="calcFinalPrice(price.value, discount.value)">Calculate</button>
 <h3>{{finalPrice}}</h3>
-
+</div>
 <router-outlet></router-outlet>

@@ -1,0 +1,29 @@
+#wrapper{
+    margin: 2%;
+}
+
+p{
+    width: 65%;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 2% 0%;
+    background-color: teal;
+    border-bottom: black 3px solid;
+}
+
+h4{
+    margin: 2%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+/* button{
+    text-align: center;
+} */
+
+input{
+    text-align: center;
+}
