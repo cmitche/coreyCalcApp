@@ -1,0 +1,12 @@
+/* LINK BOOTSTRAP TO ANGULAR FILE*/
+/* @import "~bootstrap/dist/css/bootstrap.css"; */
+
+/* GLOBAL STYLES */
+body{
+    background-color: slategrey;
+}
+
+h1{
+    text-align: center;
+    color: navy;
+}
